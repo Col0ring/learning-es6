@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "start": "ts-node",
+    "tsc": "tsc",
+    "test:promise": "tsc ./Promise/index.s && promises-aplus-tests ./Promise/index.js"
+  },
+  "devDependencies": {
+    "promises-aplus-tests": "^2.1.2",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.3"
+  }
+}
